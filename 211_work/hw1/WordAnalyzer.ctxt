@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=WordAnalyzer
+comment0.text=\n\ The\ WordAnalyzer\ class\ accepts\ a\ word\ and\ contains\ a\ method\n\ that\ can\ count\ the\ number\ of\ vowels\ in\ that\ word.\n\ \n\ @author\ Travis\ Green,\ II\n\ @version\ v0.1\n
 comment1.params=word
 comment1.target=WordAnalyzer(java.lang.String)
+comment1.text=\n\ WordAnalyzer\ constructor\ \n\ \n\ @param\ word\ sets\ private\ String\n
 comment2.params=
 comment2.target=int\ countVowels()
+comment2.text=\n\ How\ many\ vowels\ are\ in\ the\ private\ String\n\ \n\ @return\ numOfVowels\ -\ the\ number\ of\ vowels\ in\ the\ String\n
 numComments=3
