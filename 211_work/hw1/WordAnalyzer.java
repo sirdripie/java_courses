@@ -1,4 +1,4 @@
- // TO DO: Remove this comment.
+// TO DO: Remove this comment.
 // TO DO: Add JavaDoc throughout this class.
 public class WordAnalyzer {
     private String word;
@@ -9,6 +9,13 @@ public class WordAnalyzer {
     // TO DO: Remove this comment.
     // TO DO: Fix this method.
     public int countVowels () {
-        return 0;
+        int numOfVowels = 0;
+        for(int i=0; i<word.length(); i++ ){    
+            char current = Character.toUpperCase(word.charAt(i));
+            if(current == 'A' || current == 'E' || current == 'I' || current == 'O' || current == 'U') {        
+              numOfVowels++;      
+            }
+        }
+        return numOfVowels;
     }
 }
