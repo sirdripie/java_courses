@@ -1,13 +1,27 @@
-// TO DO: Remove this comment.
-// TO DO: Add JavaDoc throughout this class.
+/**
+ * The WordAnalyzer class accepts a word and contains a method
+ * that can count the number of vowels in that word.
+ * 
+ * @author Travis Green, II
+ * @version v0.1
+ */
 public class WordAnalyzer {
     private String word;
+    
+    /**
+     * WordAnalyzer constructor 
+     * 
+     * @param word sets private String
+     */
     public WordAnalyzer(String word)    {
         this.word = word;
     }
-
-    // TO DO: Remove this comment.
-    // TO DO: Fix this method.
+    
+    /**
+     * How many vowels are in the private String
+     * 
+     * @return numOfVowels - the number of vowels in the String
+     */
     public int countVowels () {
         int numOfVowels = 0;
         for(int i=0; i<word.length(); i++ ){    
