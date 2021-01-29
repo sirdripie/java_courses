@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestProg
+comment0.text=\n\ This\ program\ tests\ the\ WordAnalyzer\ classs\n\ @author\ Jason\ Miller\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=TestProg()
+comment2.params=word\ answer
+comment2.target=void\ countVowels(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ main()
+numComments=4
