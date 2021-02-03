@@ -15,32 +15,81 @@ public class StatisticalAnalyzer {
     }
 
     public int recursiveSum (int max) {
-        return 0; // TO DO: fix this.
-        // You must use recursion. 
-        // Return sum of numbers from i to zero.
-        // Assume i>=0 and include i in the sum.
+        
+        if (max != 0) {
+            return max + recursiveSum(max - 1);
+        } else {
+            return max;
+        }
     }
 
     public int getSum () {
-        return 1; // TO DO: fix this. 
-        // Use iteration.
+        int sum = 0; 
+        for(int i = 0; i < data.length; i++){
+            
+            sum += data[i];
+            
+        }
+        return sum;
+    }
+    
+    public int getMax () {
+        
+        int max = -1000000; 
+        for(int i = 0; i < data.length; i++){
+        
+            if(data[i] > max){
+                
+                max = data[i] ;
+            
+            }
+        
+        }
+        return max;
+    }
+    
+    public int getMin () {
+        
+        int min = 1000000; 
+        for(int i = 0; i < data.length; i++){
+        
+            if(data[i] < min){
+                
+                min = data[i] ;
+            
+            }
+        
+        }
+        return min;
     }
 
+
     public int getMaxMinusMin() {
-        return 2; // TO DO: fix this. 
-        // Use iteration and variables that track min and max.
+        
+        return getMax() - getMin() ;
+        
     }
 
     public double getAverage () {
-        return 3.0; // TO DO: fix this. 
-        // Use getSum() and division.
-        // Don't use integer division!
+       
+        return getSum() / (double)data.length ;
+        
     }    
 
     public double getStdDev () {
-        return 4.0; // Extra credit
-        // Compute the standard deviation.
-        // Use getAverage(), Math.pow(x,2), and Math.sqrt().
+        
+        double mean = getAverage();
+        double variance = 0;
+        double stdDev = 0;
+        for(int i=0; i < data.length; i++){
+        
+            variance += Math.pow(data[i] - mean , 2) ; 
+        
+        }
+         variance /= (double)data.length ;
+         stdDev = Math.sqrt(variance);
+         return stdDev;
+        
     }
 
 }
