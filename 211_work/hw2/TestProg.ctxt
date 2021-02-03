@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TestProg
+comment0.text=\n\ This\ program\ tests\ the\ WordAnalyzer\ classs\n\ @author\ Jason\ Miller\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=TestProg()
+comment2.params=data\ sum\ maxmin\ avg\ stddev
+comment2.target=void\ showStats(int[],\ int,\ int,\ double,\ double)
+comment3.params=max
+comment3.target=void\ showSums(int)
+comment4.params=
+comment4.target=void\ main()
+numComments=5

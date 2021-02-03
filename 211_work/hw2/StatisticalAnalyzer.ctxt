@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=StatisticalAnalyzer
+comment1.params=data
+comment1.target=StatisticalAnalyzer(int[])
+comment2.params=max
+comment2.target=int\ iterativeSum(int)
+comment3.params=max
+comment3.target=int\ recursiveSum(int)
+comment4.params=
+comment4.target=int\ getSum()
+comment5.params=
+comment5.target=int\ getMaxMinusMin()
+comment6.params=
+comment6.target=double\ getAverage()
+comment7.params=
+comment7.target=double\ getStdDev()
+numComments=8
